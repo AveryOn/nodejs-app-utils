@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-app-utils",
+  "version": "1.0.0",
+  "description": "A collection of reusable scripts, configuration templates, command snippets, and development utilities for Node.js and TypeScript applications.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "package:configure": "bash ./scripts/package-json/configure-node-app.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AveryOn/nodejs-app-utils.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AveryOn/nodejs-app-utils/issues"
+  },
+  "homepage": "https://github.com/AveryOn/nodejs-app-utils#readme"
+}

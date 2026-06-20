@@ -16,11 +16,11 @@ application using TypeScript, ESM, TSX and tsup.
 Configure the current directory:
 
 ```bash
-./scripts/package-json/configure-node-app.sh
+npm run package:configure
 ```
 
 Configure another project:
 
 ```bash
-./scripts/package-json/configure-node-app.sh /path/to/project
+npm run package:configure -- ~/Desktop/projects/payex-billing-system
 ```
